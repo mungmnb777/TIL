@@ -6,12 +6,12 @@
 
 생성 디자인 패턴 중 하나이다. 클래스가 싱글턴 패턴으로 구현되었을 경우 어플리케이션에서 인스턴스를 오직 하나만 생성할 수 있음을 보증한다.
 
-그럼 이 싱글턴 패턴은 어디에 사용할 수 있을까? 
+그럼 이 싱글턴 패턴은 어디에 사용할 수 있을까?
 
 **첫 번째**로 클래스가 인스턴스 내부에서 어떠한 상태가 저장되지 않는 경우 사용하면 좋다(예를 들어 Math 클래스와 같은 함수 클래스). 이럴 경우 여러 사용자가 각각 객체를 확보하지 않아도 일관성있는 작업을 진행할 수 있기 때문에 인스턴스를 하나만 유지하는 경우 메모리 측면에서 이득을 볼 수 있다.
 
 <p align="center">
-  <img src=https://user-images.githubusercontent.com/72181693/161428846-1b8edeb7-2636-4300-91b8-5b654e30860b.png><br>
+  <img src=../images/singleton_1.png><br>
   <em>그림 1) 자바의 API 중 하나인 Math 클래스. 싱글턴 패턴으로 구현하였다.</em>
 </p>
 
@@ -87,7 +87,7 @@ public class MetaElvis<T> {
 }
 ```
 
-3. 정적 팩터리 메서드 참조를 공급자로 사용할 수 있다는 점이다.  이 부분은 완벽히 이해하지는 못했지만 이해한 부분을 써보겠다,,, 공급자로 불리는 Supplier 인터페이스는 `@FunctionalInterface` 애노테이션을 가지고 있다. 이 애노테이션은 보통 함수형 프로그래밍, 즉 람다식을 사용할 때 주로 쓰이는 애노테이션이다. 즉 클라이언트 코드에서 람다식을 사용하고 싶을 때, Supplier를 사용하는 것이다. 다음 코드는 그 예시이다.
+3. 정적 팩터리 메서드 참조를 공급자로 사용할 수 있다는 점이다. 이 부분은 완벽히 이해하지는 못했지만 이해한 부분을 써보겠다,,, 공급자로 불리는 Supplier 인터페이스는 `@FunctionalInterface` 애노테이션을 가지고 있다. 이 애노테이션은 보통 함수형 프로그래밍, 즉 람다식을 사용할 때 주로 쓰이는 애노테이션이다. 즉 클라이언트 코드에서 람다식을 사용하고 싶을 때, Supplier를 사용하는 것이다. 다음 코드는 그 예시이다.
 
 ```java
 public class Concert {
@@ -153,12 +153,12 @@ public class ElvisReflection {
 
 우선 Elvis.class라는 Class 타입의 인스턴스를 가져온다. 이 인스턴스에 getDeclaredConstuctor()라는 메서드는 그 클래스의 생성자를 인스턴스로 가져오는데 private 접근제한자의 생성자도 포함한다. 이 부분이
 
- `Constructor<Elvis> defaultConstructor = Elvis.class.getDeclaredConstructor();`이다.
+`Constructor<Elvis> defaultConstructor = Elvis.class.getDeclaredConstructor();`이다.
 
 그 후 defaultConstructor의 접근을 허용하고 `newInstance()` 메서드를 실행하게 되면 private으로 되어있어도 생성자를 사용할 수 있게 된다.
 
 <p align="center">
-  <img src=https://user-images.githubusercontent.com/72181693/161429079-89bc71dd-41fe-4261-90a1-3c71170e712d.png><br>
+  <img src=../images/singleton_2.png><br>
   <em>그림 2) 위의 코드를 실행한 결과.</em>
 </p>
 
@@ -213,7 +213,7 @@ public static void main(String[] args) {
 위의 `try ~ catch` 문은 Elvis 인스턴스를 파일로 저장하는 코드이고, 아래의 `try ~ catch` 문은 Elvis 인스턴스를 불러오는 코드이다. 이 코드를 한번 실행해보자.
 
 <p align="center">
-  <img src=https://user-images.githubusercontent.com/72181693/161429127-0bab50be-17f9-4511-b615-2fc2ec0ce0b1.png><br>
+  <img src=../images/singleton_3.png><br>
   <em>그림 3) 위의 코드를 실행한 결과</em>
 </p>
 
