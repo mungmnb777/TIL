@@ -51,10 +51,10 @@ GC를 실행하기 전, JVM이 애플리케이션 실행을 멈추는 것이다.
 
 GC는 위에서도 살짝 말했지만 메모리의 Heap 영역에서 동작한다. Heap도 효율적인 GC를 위해 `Young Generation` 영역과 `Old Generation` 영역으로 나뉜다.
 
-<aside>
-💡 추가로 원래 Permanent Generation이라는 메타데이터를 저장하는 영역이 존재했는데 Java 8부터 Metaspace라는 영역으로 대체되었다. Metaspace는 메모리의 native static 영역을 사용하므로 Java 8부터는 heap 영역에는 young과 old만 남아있다.
-
-</aside>
+```text
+💡 추가로 원래 Permanent Generation이라는 메타데이터를 저장하는 영역이 존재했는데 Java 8부터 Metaspace라는 영역으로 대체되었다. 
+Metaspace는 메모리의 native static 영역을 사용하므로 Java 8부터는 heap 영역에는 young과 old만 남아있다.
+```
 
 <p align="center">
      <a href="http://www.waitingforcode.com/off-heap/on-heap-off-heap-storage/read">
