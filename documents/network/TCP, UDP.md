@@ -80,3 +80,15 @@ Transport Layer에는 TCP말고도 UDP라는 프로토콜도 존재한다. UDP�
 UDP는 다른 큰 특징은 커스텀하기 좋다는 점이다. 헤더에 포트 정보와 checksum 정도의 최소의 정보만 들어가기 때문에 복잡한 TCP와 달리 사용자 입맛에 맞게 헤더를 바꿀 수 있다.
 
 최근에 HTTP 3.0에서는 UDP를 이용하여 TCP의 연결 지향 웹 애플리케이션을 개선한 QUIC라는 프로토콜을 사용하기로 결정해서 다음 세대의 개발자들은 UDP/IP를 이용한 통신을 하게 될 수도 있을 것 같다.
+
+# 4. 참고자료
+
+[위키백과 - TCP](https://ko.wikipedia.org/wiki/%EC%A0%84%EC%86%A1_%EC%A0%9C%EC%96%B4_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)
+
+[위키백과 - UDP](https://ko.wikipedia.org/wiki/%EC%82%AC%EC%9A%A9%EC%9E%90_%EB%8D%B0%EC%9D%B4%ED%84%B0%EA%B7%B8%EB%9E%A8_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C)
+
+[위키백과 - QUIC](https://ko.wikipedia.org/wiki/QUIC)
+
+[네트워크 엔지니어 환영의 기술 블로그](https://aws-hyoh.tistory.com/57)
+
+[모든 개발자를 위한 HTTP 웹 기본 지식](https://www.inflearn.com/course/http-%EC%9B%B9-%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC)
