@@ -4,11 +4,8 @@
 
 GoF Design Patterns에서는 템플릿 메서드 패턴을 다음과 같이 정의한다.
 
-> \*Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithms structure.
-
-메소드에서 알고리즘의 골격을 정의하고 일부 단계를 하위 클래스로 연기합니다. 템플릿 메서드를 사용하면 하위 클래스가 알고리즘 구조를 변경하지 않고 알고리즘의 특정 단계를 재정의할 수 있습니다.\*
-
->
+> *Defines the skeleton of an algorithm in a method, deferring some steps to subclasses. Template Method lets subclasses redefine certain steps of an algorithm without changing the algorithms structure.<br><br>
+메소드에서 알고리즘의 골격을 정의하고 일부 단계를 하위 클래스로 연기합니다. 템플릿 메서드를 사용하면 하위 클래스가 알고리즘 구조를 변경하지 않고 알고리즘의 특정 단계를 재정의할 수 있습니다.*
 
 이름 그대로 템플릿이라는 거대한 틀을 만들어두고 그 곳에 변하지 않으면서 여러 곳에서 재사용되는 코드들을 몰아둔다. 그 후 일부 변하는 부분을 별도로 호출해서 해결하는 디자인 패턴이다.
 
