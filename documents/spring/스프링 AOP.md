@@ -15,6 +15,8 @@
     <em>그림 1) 횡단 관심사 모듈화</em>
 </p>
 
+---
+
 ## 2. @Aspect 프록시
 
 gradle 혹은 maven을 통해 `org.springframework.boot:spring-boot-starter-aop`라는 dependency를 추가하면 스프링은 `AnnotationAwareAsjpectJAutoProxyCreator`라는 자동 프록시 생성기를 사용할 수 있다. 자동 프록시 생성기는 스프링 컨테이너에 `Advisor`라는 빈이 등록되면 이를 자동으로 찾아와서 필요한 곳에 프록시를 생성하고 적용해준다. 그리고 `@Aspect`라는 애노테이션이 등록된 클래스를 찾아 `Advisor`로 만들어주는 역할도 한다.
@@ -58,3 +60,46 @@ gradle 혹은 maven을 통해 `org.springframework.boot:spring-boot-starter-aop`
 5. 프록시 적용 대상 체크: 앞서 3, 4번 과정에서 조회한 Advisor 에 포함되어 있는 포인트컷을 사용해서 해당 객체가 프록시를 적용할 대상인지 아닌지 판단한다. 이때 객체의 클래스 정보는 물론이고, 해당 객체의 모든 메서드를 포인트컷에 하나하나 모두 매칭해본다. 그래서 조건이 하나라도 만족하면 프록시 적용 대상이 된다. 예를 들어서 메서드 하나만 포인트컷 조건에 만족해도 프록시 적용 대상이 된다.
 6. 프록시 생성: 프록시 적용 대상이면 프록시를 생성하고 프록시를 스프링 빈으로 등록하고 만약 프록시 적용 대상이 아니라면 원본 객체를 스프링 빈으로 등록한다.
 7. 빈 등록: 반환된 객체는 스프링 빈으로 등록된다
+
+---
+
+## 3. 포인트컷 지시자
+
+### 3.1. execution
+
+```
+execution(modifiers-pattern? return-type-pattern declaring-type-pattern?name-pattern(param-pattern) throws-pattern?)
+```
+
+**매칭 조건**
+
+- 접근 제어자(modifiers-pattern) : `public`
+- 반환 타입(return-type-pattern) : `String`
+- 선언 타입(declaring-type-pattern) : `com.ssafy.member.MemberServiceImpl`
+- 메서드 이름(name-pattern) : `hello`
+- 파라미터(param-pattern) : `(String)`
+- 예외(throws-pattern)
+
+참고로 각 매칭 조건 뒤에 `?`가 붙은 조건은 생략 가능하다.
+
+### 3.2. within
+
+within 지시자는 특정 타입 내의 조인 포인트에 대한 매칭을 제한한다.
+
+즉, executiton에서 선언 타입 부분만 사용하는 것이다.
+
+그런데 하나 execution가 다른 점이 있다. 표현식에 부모 타입을 사용할 수 없다. execution에서는 상위 인터페이스인 `MemberService`를 표현식에 사용해도 `MemberServiceImpl`의 메서드를 가져올 수 있었는데, within에서는 불가능하다.
+
+### 3.3. args
+
+args 지시자는 executiton에서 파라미터 부분이다.
+
+execution과는 약간의 차이가 있다.
+
+execution의 경우에는 파라미터 타입이 정확하게 매칭되어야 한다. execution은 클래스에 선언된 정보를 기반으로 판단하기 때문이다.
+
+반면에 args는 부모 타입도 허용한다. 실제 넘어온 파라미터 객체 인스턴스를 보고 판단하기 때문이다.
+
+### 3.4. bean
+
+bean 지시자는 스프링 전용 포인트컷 지시자로 빈의 이름으로 지정한다.
