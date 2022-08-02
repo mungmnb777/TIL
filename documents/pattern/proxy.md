@@ -6,7 +6,7 @@
 > <br>일반적으로 프록시는 다른 무언가와 이어지는 인터페이스의 역할을 하는 클래스이다. 프록시는 어떠한 것(이를테면 네트워크 연결, 메모리 안의 커다란 객체, 파일, 또 복제할 수 없거나 수요가 많은 리소스)과도 인터페이스의 역할을 수행할 수 있다.
 
 <p align="center">
-  <img src=../images/singleton_1.png><br>
+  <img src="../images/proxy pattern_1.png"><br>
   <em>그림 1) UML의 프록시</em>
 </p>
 
@@ -15,7 +15,7 @@
 클라이언트 서버 모델에서도 마찬가지이다.
 
 <p align="center">
-  <img src=../images/singleton_1.png><br>
+  <img src="../images/proxy pattern_2.png"><br>
   <em>그림 2) 클라이언트 서버 모델에서의 프록시</em>
 </p>
 
