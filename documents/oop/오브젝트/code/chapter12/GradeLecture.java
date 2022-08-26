@@ -31,4 +31,27 @@ public class GradeLecture extends Lecture {
     private long gradeCount(Grade grade) {
         return getScores().stream().filter(grade::include).count();
     }
+
+    /**
+     * 메서드 오버로딩을 활용하여 메서드의 이름은 동일하지만 시그니처가 다른 메서드를 추가할 수도 있다.
+     */
+    public double average(String gradeName) {
+        return grades.stream()
+                .filter(each -> each.isName(gradeName))
+                .findFirst()
+                .map(this::gradeAverage)
+                .orElse(0d);
+    }
+
+    /**
+     * 자식 클래스에는 부모 클래스에는 없던 새로운 메서드를 추가하는 것도 가능하다.
+     * 등급별 평균 성적 반환하는 메서드
+     */
+    private double gradeAverage(Grade grade) {
+        return getScores().stream()
+                .filter(grade::include)
+                .mapToInt(Integer::intValue)
+                .average()
+                .orElse(0);
+    }
 }
