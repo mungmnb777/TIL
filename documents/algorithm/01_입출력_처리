@@ -1,0 +1,33 @@
+# 1. 입/출력 처리
+
+## 표준 입출력
+
+- System.in - 입력
+- System.out - 출력
+    
+    → 자바의 입출력은 스트림으로 되어있다. 이 때 데이터를 입력받는 스트림은 `InputStream`, `Reader`가 있고 출력하는 스트림을 `OutputStream`, `Writer`가 있다.
+    
+- System.err
+
+## java.util.Scanner
+
+- 파일, 입력 스트림에서 데이터를 읽어 구부낮로 토큰화하고 다양한 타입으로 형변환하여 리턴해주는 클래스
+- Scanner(File source)
+- Scanner(InputStream source)
+- Scanner(String source)
+- 입력 스트림을 다루는 방법을 모랄도 손쉽게 입력처리 가능
+- 데이터 형변환으로 인한 편리함
+- 대량의 데이터 처리 시 수행 시간이 비효율적임 → BufferedReader를 사용하면 라인 단위로 입력을 처리하는데 있어 수행 시간을 줄일 수 있다.
+
+### 주요 메서드
+
+- `nextInt()` : int 타입 반환, 유효 문자열 후 `white space` 문자를 만나면 처리
+- `nextDouble()` : double 타입 반환, `white space` 문자를 만나면 처리
+- `next()` : 문자열 반환, `white space` 문자를 만나면 처리
+- `nextLine()` : 문자열 반환, `개행(Enter)` 문자를 만나면 처리
+
+## java.io.BufferedReader
+
+- 필터 스트림 유형
+- 줄 단위로 문자열 처리 기능 제공
+- 대량의 데이터 처리 시 수행 시간이 효율적임
