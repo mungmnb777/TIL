@@ -95,6 +95,7 @@
 
 ## 네트워크
 - [CORS](https://github.com/mungmnb777/TIL/blob/main/documents/network/CORS.md)
+- [HTTP Basic](https://github.com/mungmnb777/TIL/blob/main/documents/network/HTTP%20Basic.md)
 - [HTTP 메서드](https://github.com/mungmnb777/TIL/blob/main/documents/network/HTTP%20%EB%A9%94%EC%84%9C%EB%93%9C.md)
 - [HTTP 상태 코드](https://github.com/mungmnb777/TIL/blob/main/documents/network/HTTP%20%EC%83%81%ED%83%9C%20%EC%BD%94%EB%93%9C.md)
 - [HTTP 헤더](https://github.com/mungmnb777/TIL/blob/main/documents/network/HTTP%20%ED%97%A4%EB%8D%94.md)
