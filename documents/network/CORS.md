@@ -14,3 +14,22 @@ CORS란 교차 출처 리소스 공유라는 이름으로 불리며 [위키백�
 동일 출처 정책은 어떤 출처에서 불러온 문서나 스크립트가 다른 출처로부터 스크립트를 가져오는 것을 제한함으로써, 잠재적으로 해가 되는 문서를 분리함으로써 공격받을 수 있는 경로를 줄여준다. 이 때 출처는 `프로토콜`, `포트`, `호스트`가 모두 같아야 동일한 출처라고 말한다.
 
 그런데 우리는 ajax를 자주 사용하게 되면서 종종 다른 출처에서도 리소스를 제공받아야 할 때도 있기 때문에 이 때는 CORS에 의해 요청과 응답을 제어함으로써 위험성을 완화시키는 것이다.
+
+## CORS 해결 - 서버에서 Access-Control-Allow-* 세팅
+
+- `Access-Control-Allow-Origin` - 헤더에 작성된 출처만 브라우저가 리소스를 접근할 수 있도록 허용한다.
+- `Access-Control-Allow-Methods` - Preflight Request에 대한 응답으로 실제 요청 중에 사용할 수 있는 메서드를 나타낸다.
+- `Access-Control-Allow-Headers` - Preflight Request에 대한 응답으로 실제 요청 중에 사용할 수 있는 헤더 필드 이름을 나타낸다.
+    - 기본값은 Origin, Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers, Custom Header, *
+- `Access-Control-Allow-Credentials` - 실제 요청에 쿠키나 인증 등의 사용자 자격 증명이 포함될 수 있음을 나타낸다.
+- `Access-Control-Max-Age` - Preflight 요청 결과를 캐시할 수 있는 시간을 나타낸 것으로 해당 시간 동안은 Preflight 요청을 다시 하지 않게 된다.
+
+## CorsConfigurer
+
+- 필터 체인에 CorsFilter를 추가한다.
+- corsFilter라는 이름의 빈이 제공되면 해당 CorsFilter가 사용된다.
+- corsFilter라는 이름의 빈이 없고 CorsConfigurationSource 빈이 정의된 경우 해당 CorsConfiguration이 사용된다.
+
+## CorsFilter
+
+- CORS 예비 요청을 처리하고 CORS 단순 및 본 요청을 가로채고, 제공된 CorsConfigurationSource를 통해 일치된 정책에 따라 CORS 응답 헤더와 같은 응답을 업데이트하기 위한 필터이다.
