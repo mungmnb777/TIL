@@ -156,6 +156,7 @@
     - [스프링 시큐리티 - 주요 아키텍처](https://github.com/mungmnb777/TIL/blob/main/documents/spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%20-%20%EC%A3%BC%EC%9A%94%20%EC%95%84%ED%82%A4%ED%85%8D%EC%B2%98%20%EC%9D%B4%ED%95%B4.md)
     - [스프링 시큐리티 인증 및 인가 흐름](https://github.com/mungmnb777/TIL/blob/main/documents/spring/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0/%EC%8A%A4%ED%94%84%EB%A7%81%20%EC%8B%9C%ED%81%90%EB%A6%AC%ED%8B%B0%20%EC%9D%B8%EC%A6%9D%20%EB%B0%8F%20%EC%9D%B8%EA%B0%80%20%ED%9D%90%EB%A6%84.md)
 - [POJO](https://github.com/mungmnb777/TIL/blob/main/documents/spring/POJO.md)
+- [Spring OAuth 2.0](https://github.com/mungmnb777/TIL/blob/main/documents/spring/Spring%20OAuth%202.0.md)
 - [어디 가서 코프링 매우 알은 체 하기](https://github.com/mungmnb777/TIL/blob/main/documents/spring/%5B%EB%B0%B0%EB%AF%BC%20%EC%84%B8%EB%AF%B8%EB%82%98%5D%EC%96%B4%EB%94%94%20%EA%B0%80%EC%84%9C%20%EC%BD%94%ED%94%84%EB%A7%81%20%EB%A7%A4%EC%9A%B0%20%EC%95%8C%EC%9D%80%20%EC%B2%B4%20%ED%95%98%EA%B8%B0.md)
 - [객체 지향 원칙과 스프링](https://github.com/mungmnb777/TIL/blob/main/documents/spring/%EA%B0%9D%EC%B2%B4%20%EC%A7%80%ED%96%A5%20%EC%9B%90%EC%B9%99%EA%B3%BC%20%EC%8A%A4%ED%94%84%EB%A7%81.md)
 - [빈 생명주기](https://github.com/mungmnb777/TIL/blob/main/documents/spring/%EB%B9%88%20%EC%83%9D%EB%AA%85%EC%A3%BC%EA%B8%B0.md)
