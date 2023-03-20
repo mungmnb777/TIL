@@ -151,6 +151,7 @@
 - [메모리](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
 - [시스템 콜](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C.md)
 - [운영체제와 논리회로 일반](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%99%80%20%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%20%EC%9D%BC%EB%B0%98.md)
+- [인터럽트, 시스템 콜](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8%2C%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C.md)
 - [임계영역](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EC%9E%84%EA%B3%84%EC%98%81%EC%97%AD.md)
 
 ## 디자인 패턴
