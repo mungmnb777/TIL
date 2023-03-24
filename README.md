@@ -101,6 +101,7 @@
     - [자바 클래스에서 코틀린 클래스로](https://github.com/mungmnb777/TIL/blob/main/documents/kotlin/%EC%9E%90%EB%B0%94%EC%97%90%EC%84%9C%20%EC%BD%94%ED%8B%80%EB%A6%B0%EC%9C%BC%EB%A1%9C/03_%EC%9E%90%EB%B0%94%20%ED%81%B4%EB%9E%98%EC%8A%A4%EC%97%90%EC%84%9C%20%EC%BD%94%ED%8B%80%EB%A6%B0%20%ED%81%B4%EB%9E%98%EC%8A%A4%EB%A1%9C.md)
     - [옵셔널에서 널이 될 수 있는 타입으로](https://github.com/mungmnb777/TIL/blob/main/documents/kotlin/%EC%9E%90%EB%B0%94%EC%97%90%EC%84%9C%20%EC%BD%94%ED%8B%80%EB%A6%B0%EC%9C%BC%EB%A1%9C/04_%EC%98%B5%EC%85%94%EB%84%90%EC%97%90%EC%84%9C%20%EB%84%90%EC%9D%B4%20%EB%90%A0%20%EC%88%98%20%EC%9E%88%EB%8A%94%20%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C.md)
     - [빈에서 값으로](https://github.com/mungmnb777/TIL/blob/main/documents/kotlin/%EC%9E%90%EB%B0%94%EC%97%90%EC%84%9C%20%EC%BD%94%ED%8B%80%EB%A6%B0%EC%9C%BC%EB%A1%9C/05_%EB%B9%88%EC%97%90%EC%84%9C%20%EA%B0%92%EC%9C%BC%EB%A1%9C.md)
+    - [스트림에서 이터러블이나 시퀀스로](https://github.com/mungmnb777/TIL/blob/main/documents/kotlin/%EC%9E%90%EB%B0%94%EC%97%90%EC%84%9C%20%EC%BD%94%ED%8B%80%EB%A6%B0%EC%9C%BC%EB%A1%9C/13_%EC%8A%A4%ED%8A%B8%EB%A6%BC%EC%97%90%EC%84%9C%20%EC%9D%B4%ED%84%B0%EB%9F%AC%EB%B8%94%EC%9D%B4%EB%82%98%20%EC%8B%9C%ED%80%80%EC%8A%A4%EB%A1%9C.md)
     
 ## 네트워크
 - [CORS](https://github.com/mungmnb777/TIL/blob/main/documents/network/CORS.md)
