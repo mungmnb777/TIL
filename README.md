@@ -151,6 +151,7 @@
 - [동기화](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EB%8F%99%EA%B8%B0%ED%99%94.md)
 - [동시성 이슈 해결](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EB%8F%99%EC%8B%9C%EC%84%B1%20%EC%9D%B4%EC%8A%88%20%ED%95%B4%EA%B2%B0.md)
 - [메모리](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EB%A9%94%EB%AA%A8%EB%A6%AC.md)
+- [세마포어 고민](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EC%84%B8%EB%A7%88%ED%8F%AC%EC%96%B4%20%EA%B3%A0%EB%AF%BC.md)
 - [시스템 콜](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C.md)
 - [운영체제와 논리회로 일반](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EC%9A%B4%EC%98%81%EC%B2%B4%EC%A0%9C%EC%99%80%20%EB%85%BC%EB%A6%AC%ED%9A%8C%EB%A1%9C%20%EC%9D%BC%EB%B0%98.md)
 - [인터럽트, 시스템 콜](https://github.com/mungmnb777/TIL/blob/main/documents/os/%EC%9D%B8%ED%84%B0%EB%9F%BD%ED%8A%B8%2C%20%EC%8B%9C%EC%8A%A4%ED%85%9C%20%EC%BD%9C.md)
