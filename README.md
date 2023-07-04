@@ -195,6 +195,7 @@
 - 클린코드
     - [깨끗한 코드](https://github.com/mungmnb777/TIL/blob/main/documents/etc/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/01_%EA%B9%A8%EB%81%97%ED%95%9C_%EC%BD%94%EB%93%9C.md)
     - [의미있는 이름](https://github.com/mungmnb777/TIL/blob/main/documents/etc/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/02_%EC%9D%98%EB%AF%B8%EC%9E%88%EB%8A%94_%EC%9D%B4%EB%A6%84.md)
+    - [함수](https://github.com/mungmnb777/TIL/blob/main/documents/etc/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/03_%ED%95%A8%EC%88%98.md)
 - [DAO, DTO, VO](https://github.com/mungmnb777/TIL/blob/main/documents/etc/DAO%2C%20DTO%2C%20VO.md)
 - [지라](https://github.com/mungmnb777/TIL/blob/main/documents/etc/JIRA.md)
 - [코틀린](https://github.com/mungmnb777/TIL/blob/main/documents/etc/Kotlin.md)
