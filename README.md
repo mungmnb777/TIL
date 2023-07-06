@@ -202,6 +202,7 @@
     - [오류 처리](https://github.com/mungmnb777/TIL/blob/main/documents/etc/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/07_%EC%98%A4%EB%A5%98_%EC%B2%98%EB%A6%AC.md)
     - [경계](https://github.com/mungmnb777/TIL/blob/main/documents/etc/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/08_%EA%B2%BD%EA%B3%84.md)
     - [단위 테스트](https://github.com/mungmnb777/TIL/blob/main/documents/etc/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/09_%EB%8B%A8%EC%9C%84_%ED%85%8C%EC%8A%A4%ED%8A%B8.md)
+    - [클래스](https://github.com/mungmnb777/TIL/blob/main/documents/etc/%ED%81%B4%EB%A6%B0%EC%BD%94%EB%93%9C/10_%ED%81%B4%EB%9E%98%EC%8A%A4.md)
 - [DAO, DTO, VO](https://github.com/mungmnb777/TIL/blob/main/documents/etc/DAO%2C%20DTO%2C%20VO.md)
 - [지라](https://github.com/mungmnb777/TIL/blob/main/documents/etc/JIRA.md)
 - [코틀린](https://github.com/mungmnb777/TIL/blob/main/documents/etc/Kotlin.md)
