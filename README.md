@@ -9,6 +9,7 @@
 ## 자료구조
 - [Array에서 Index는 왜 0부터 시작할까?](https://github.com/mungmnb777/TIL/blob/main/documents/data-structure/Array%EC%97%90%EC%84%9C%20index%EB%8A%94%20%EC%99%9C%200%EB%B6%80%ED%84%B0%20%EC%8B%9C%EC%9E%91%ED%95%A0%EA%B9%8C.md)
 - [자바에서의 ArrayList](https://github.com/mungmnb777/TIL/blob/main/documents/data-structure/%EC%9E%90%EB%B0%94%EC%97%90%EC%84%9C%EC%9D%98%20ArrayList.md)
+- [자바에서의 Deque](https://github.com/mungmnb777/TIL/blob/main/documents/data-structure/자바에서의%20Deque%20인터페이스.md)
 
 ## 데이터베이스
 - [인덱스](https://github.com/mungmnb777/TIL/blob/main/documents/database/%EC%9D%B8%EB%8D%B1%EC%8A%A4.md)
