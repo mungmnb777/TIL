@@ -128,6 +128,7 @@
 - [프록시](https://github.com/mungmnb777/TIL/blob/main/documents/network/proxy.md)
 - [네트워크 면접 준비](https://github.com/mungmnb777/TIL/blob/main/documents/network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%EB%A9%B4%EC%A0%91.md)
 - [네트워크 통신 요소](https://github.com/mungmnb777/TIL/blob/main/documents/network/%EB%84%A4%ED%8A%B8%EC%9B%8C%ED%81%AC%20%ED%86%B5%EC%8B%A0%20%EC%9A%94%EC%86%8C.md)
+- [분산 컴퓨팅에 대한 8가지 오해](https://github.com/mungmnb777/TIL/blob/main/documents/network/분산%20컴퓨팅에%20대한%208가지%20오해.md)
 - [웹 스코프](https://github.com/mungmnb777/TIL/blob/main/documents/network/%EC%9B%B9%20%EC%8A%A4%EC%BD%94%ED%94%84.md)
 - [캐시](https://github.com/mungmnb777/TIL/blob/main/documents/network/%EC%BA%90%EC%8B%9C.md)
 
