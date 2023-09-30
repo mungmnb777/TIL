@@ -36,7 +36,7 @@
     - [애플리케이션 배포를 위한 고급 설정](https://github.com/mungmnb777/TIL/blob/main/documents/infra/%EC%8B%9C%EC%9E%91%ED%95%98%EC%84%B8%EC%9A%94_%EB%8F%84%EC%BB%A4_%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4/12_%EC%95%A0%ED%94%8C%EB%A6%AC%EC%BC%80%EC%9D%B4%EC%85%98%20%EB%B0%B0%ED%8F%AC%EB%A5%BC%20%EC%9C%84%ED%95%9C%20%EA%B3%A0%EA%B8%89%20%EC%84%A4%EC%A0%95.md)
 - [쉽게 시작하는 쿠버네티스](https://github.com/mungmnb777/TIL/blob/main/documents/infra/01_%EC%89%BD%EA%B2%8C%20%EC%8B%9C%EC%9E%91%ED%95%98%EB%8A%94%20%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4.md)
 - [ACM을 활용한 SSL 인증서 요청](https://github.com/mungmnb777/TIL/blob/main/documents/infra/ACM%EC%9D%84%20%ED%99%9C%EC%9A%A9%ED%95%9C%20SSL%20%EC%9D%B8%EC%A6%9D%EC%84%9C%20%EC%9A%94%EC%B2%AD.md)
-- [Apache Zookeeper](https://github.com/mungmnb777/TIL/blob/main/documents/documents/infra/Apache%20Zookeeper.md)
+- [Apache Zookeeper](https://github.com/mungmnb777/TIL/blob/main/documents/infra/Apache%20Zookeeper.md)
 - [AWS Auto Scaling](https://github.com/mungmnb777/TIL/blob/main/documents/infra/AWS%20Auto%20Scaling.md)
 - [AWS LoadBalancer](https://github.com/mungmnb777/TIL/blob/main/documents/infra/AWS%20%EB%A1%9C%EB%93%9C%EB%B0%B8%EB%9F%B0%EC%84%9C.md)
 - [Cloutfront를 이용한 프론트엔드 CI/CD 구축](https://github.com/mungmnb777/TIL/blob/main/documents/infra/Cloudfront%20CICD%20%ED%99%98%EA%B2%BD.md)
