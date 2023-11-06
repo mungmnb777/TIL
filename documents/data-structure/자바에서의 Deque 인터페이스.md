@@ -2,17 +2,17 @@
 
 자바 1.6에 `Deque`라는 인터페이스가 등장했다.
 
-![Untitled](Java%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B4%20Deque%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%2098d7a2b26a59446ba9a05bb9cd443e67/Untitled.png)
+![Untitled](../images/Deque_1.png)
 
 `Deque`은 Head Element와 Tail Element 모두 추가, 삭제가 가능한 자료구조이다.
 
 특별한 점으로는 알려진 `Deque`은 Capacity Limit이 없지만, 자바의 `Deque`은 제한을 걸 수도, 걸지 않을 수도 있다.
 
-![Untitled](Java%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B4%20Deque%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%2098d7a2b26a59446ba9a05bb9cd443e67/Untitled%201.png)
+![Untitled](../images/Deque_2.png)
 
 `Deque`는 Queue를 상속받고 있다. 따라서 선입선출 기능을 구현해야한다.
 
-![Untitled](Java%E1%84%8B%E1%85%A6%E1%84%89%E1%85%A5%E1%84%8B%E1%85%B4%20Deque%20%E1%84%8B%E1%85%B5%E1%86%AB%E1%84%90%E1%85%A5%E1%84%91%E1%85%A6%E1%84%8B%E1%85%B5%E1%84%89%E1%85%B3%2098d7a2b26a59446ba9a05bb9cd443e67/Untitled%202.png)
+![Untitled](../images/Deque_3.png)
 
 또한 `Deque`은 스택의 역할도 할 수 있어야 한다. 따라서 후입선출 기능을 구현해야한다.
 
