@@ -89,6 +89,7 @@
 - [JPA 프록시](https://github.com/mungmnb777/TIL/blob/main/documents/java/JPA%20%ED%94%84%EB%A1%9D%EC%8B%9C.md)
 - [JPQL 심화](https://github.com/mungmnb777/TIL/blob/main/documents/java/JPQL%20%EC%8B%AC%ED%99%94.md)
 - [JPQL](https://github.com/mungmnb777/TIL/blob/main/documents/java/JPQL.md)
+- [Lock Free](https://github.com/mungmnb777/TIL/blob/main/documents/java/Lock%20Free.md)
 - [JUnit 5](https://github.com/mungmnb777/TIL/blob/main/documents/java/JUnit%205.md)
 - [JVM](https://github.com/mungmnb777/TIL/blob/main/documents/java/JVM.md)
 - [예외](https://github.com/mungmnb777/TIL/blob/main/documents/java/exception.md)
