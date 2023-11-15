@@ -59,14 +59,7 @@
 - [쿠버네티스](https://github.com/mungmnb777/TIL/blob/main/documents/infra/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4.md)
 
 ## 자바
-- 이펙티브 자바
-    - [아이템 1. 생성자 대신 정적 팩토리 메서드를 고려하라](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/%EC%95%84%EC%9D%B4%ED%85%9C%2001_%EC%83%9D%EC%84%B1%EC%9E%90%20%EB%8C%80%EC%8B%A0%20%EC%A0%95%EC%A0%81%20%ED%8C%A9%ED%84%B0%EB%A6%AC%20%EB%A9%94%EC%84%9C%EB%93%9C%EB%A5%BC%20%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC.md)
-    - [아이템 2. 생성자에 매개변수가 많다면 빌더를 고려하라](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/%EC%95%84%EC%9D%B4%ED%85%9C%2002_%EC%83%9D%EC%84%B1%EC%9E%90%EC%97%90%20%EB%A7%A4%EA%B0%9C%EB%B3%80%EC%88%98%EA%B0%80%20%EB%A7%8E%EB%8B%A4%EB%A9%B4%20%EB%B9%8C%EB%8D%94%EB%A5%BC%20%EA%B3%A0%EB%A0%A4%ED%95%98%EB%9D%BC.md)
-    - [아이템 3. private 생성자나 열거 타입으로 싱글턴임을 보장하라](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/%EC%95%84%EC%9D%B4%ED%85%9C%2003_private%20%EC%83%9D%EC%84%B1%EC%9E%90%EB%82%98%20%EC%97%B4%EA%B1%B0%20%ED%83%80%EC%9E%85%EC%9C%BC%EB%A1%9C%20%EC%8B%B1%EA%B8%80%ED%84%B4%EC%9E%84%EC%9D%84%20%EB%B3%B4%EC%A6%9D%ED%95%98%EB%9D%BC..md)
-    - [아이템 4. 인스턴스화를 막으려거든 private 생성자를 사용하라](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/%EC%95%84%EC%9D%B4%ED%85%9C%2004_%EC%9D%B8%EC%8A%A4%ED%84%B4%EC%8A%A4%ED%99%94%EB%A5%BC%20%EB%A7%89%EC%9C%BC%EB%A0%A4%EA%B1%B0%EB%93%A0%20private%20%EC%83%9D%EC%84%B1%EC%9E%90%EB%A5%BC%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
-    - [아이템 5. 자원을 직접 명시하지 말고 의존 객체 주입을 사용하라](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/%EC%95%84%EC%9D%B4%ED%85%9C%2005_%EC%9E%90%EC%9B%90%EC%9D%84%20%EC%A7%81%EC%A0%91%20%EB%AA%85%EC%8B%9C%ED%95%98%EC%A7%80%20%EB%A7%90%EA%B3%A0%20%EC%9D%98%EC%A1%B4%20%EA%B0%9D%EC%B2%B4%20%EC%A3%BC%EC%9E%85%EC%9D%84%20%EC%82%AC%EC%9A%A9%ED%95%98%EB%9D%BC.md)
-    - [아이템 6. 불필요한 객체 생성을 피하라](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/%EC%95%84%EC%9D%B4%ED%85%9C%2006_%EB%B6%88%ED%95%84%EC%9A%94%ED%95%9C%20%EA%B0%9D%EC%B2%B4%20%EC%83%9D%EC%84%B1%EC%9D%84%20%ED%94%BC%ED%95%98%EB%9D%BC.md)
-    - [아이템 7. 다 쓴 객체 참조를 해제하라](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9D%B4%ED%8E%99%ED%8B%B0%EB%B8%8C%20%EC%9E%90%EB%B0%94/%EC%95%84%EC%9D%B4%ED%85%9C%2007_%EB%8B%A4%20%EC%93%B4%20%EA%B0%9D%EC%B2%B4%20%EC%B0%B8%EC%A1%B0%EB%A5%BC%20%ED%95%B4%EC%A0%9C%ED%95%98%EB%9D%BC.md)
+- [이펙티브 자바](https://github.com/mungmnb777/TIL/blob/main/documents/documents/java/이펙티브%20자바%20다시보기/)
 - 자바 최적화
     - [성능과 최적화](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94/1_%EC%84%B1%EB%8A%A5%EA%B3%BC%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
     - [JVM 이야기](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94/2_JVM%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
@@ -93,6 +86,7 @@
 - [JUnit 5](https://github.com/mungmnb777/TIL/blob/main/documents/java/JUnit%205.md)
 - [JVM](https://github.com/mungmnb777/TIL/blob/main/documents/java/JVM.md)
 - [예외](https://github.com/mungmnb777/TIL/blob/main/documents/java/exception.md)
+- [가상 쓰레드](https://github.com/mungmnb777/TIL/blob/main/documents/java/가상%20쓰레드.md)
 - [리플렉션](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EB%A6%AC%ED%94%8C%EB%A0%89%EC%85%98.md)
 - [쓰레드 로컬](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%93%B0%EB%A0%88%EB%93%9C%20%EB%A1%9C%EC%BB%AC.md)
 - [쓰레드](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%93%B0%EB%A0%88%EB%93%9C.md)
