@@ -59,7 +59,7 @@
 - [쿠버네티스](https://github.com/mungmnb777/TIL/blob/main/documents/infra/%EC%BF%A0%EB%B2%84%EB%84%A4%ED%8B%B0%EC%8A%A4.md)
 
 ## 자바
-- [이펙티브 자바](https://github.com/mungmnb777/TIL/blob/main/documents/documents/java/이펙티브%20자바%20다시보기/)
+- [이펙티브 자바](https://github.com/mungmnb777/TIL/blob/main/documents/java/이펙티브%20자바%20다시보기/)
 - 자바 최적화
     - [성능과 최적화](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94/1_%EC%84%B1%EB%8A%A5%EA%B3%BC%20%EC%B5%9C%EC%A0%81%ED%99%94.md)
     - [JVM 이야기](https://github.com/mungmnb777/TIL/blob/main/documents/java/%EC%9E%90%EB%B0%94%20%EC%B5%9C%EC%A0%81%ED%99%94/2_JVM%20%EC%9D%B4%EC%95%BC%EA%B8%B0.md)
@@ -162,6 +162,7 @@
 - [싱글턴 패턴](https://github.com/mungmnb777/TIL/blob/main/documents/pattern/singleton.md)
 - [전략 패턴](https://github.com/mungmnb777/TIL/blob/main/documents/pattern/strategy.md)
 - [템플릿 메서드 패턴](https://github.com/mungmnb777/TIL/blob/main/documents/pattern/template%20method.md)
+- [폴링](https://github.com/mungmnb777/TIL/blob/main/documents/pattern/polling.md)
 
 ## 스프링
 - 스프링 시큐리티
